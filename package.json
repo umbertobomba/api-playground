@@ -7,10 +7,6 @@
     "start-server": "tsc && node build/server.js",
     "start": "nodemon -e ts -w ./ -x npm run start-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/umbertobomba/api-playground.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
