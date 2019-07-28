@@ -1,0 +1,22 @@
+{
+  "name": "api-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start-server": "tsc && node build/server.js",
+    "start": "nodemon -e ts -w ./ -x npm run start-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umbertobomba/api-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
